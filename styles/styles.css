@@ -1,0 +1,39 @@
+html {
+    background-color: skyblue;
+    font-size: 16px;
+    font-family: 'Chonburi', serif;
+}
+body {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 20px solid seagreen;
+  }
+h1 {
+    color: slateblue;
+    font-size: 60px;
+    text-shadow: 5px 5px skyblue;
+  }
+img {
+    display: block;
+    margin: 0 auto;
+}
+p1 {
+    color: slateblue;
+    font-size: 20px;
+}
+ul, li {
+    color: darkblue;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+p2 {
+    color: darkviolet;
+  }
+ul, li, p2 {
+    font-size: 16px;
+}
+h1, p1, p2 {
+    text-align: center;
+}
