@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Problem 3</title>
+        <style>
+            caption {
+                font: 32px bold;
+                padding: 20px;
+            }
+            .bgtext, #usa, #brazil {
+                background-color: paleturquoise;
+            }
+            .new-cases {
+                background-color: yellow;
+            }
+            .new-deaths {
+                background-color: red;
+                color: white;
+            }
+            .new-recovered {
+                background-color: lightgreen;
+            }
+            .country {
+                text-align: left;
+            }
+            th {
+                text-align: right;
+                background-color: lightyellow;
+            }
+            table, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+                border-spacing: 5px;
+            }
+            th,td {
+                width: 600px;
+                height: 50px;
+            }
+            td {
+                text-align: right;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Reported Cases and Deaths by Country</caption>
+            <tr>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>New Cases</th>
+                <th>Total Deaths</th>
+                <th>New Deaths</th>
+                <th>Total Recovered</th>
+                <th>New Recovered</th>
+                <th>Active Cases</th>
+            </tr>
+            <tr>
+                <td class="country" id="usa">USA</td>
+                <td class="bgtext">35,353,923</td>
+                <td class="new-cases">+61,581</td>
+                <td class="bgtext">627,351</td>
+                <td class="new-deaths">+339</td>
+                <td class="bgtext">29,571,434</td>
+                <td class="new-recovered">+22,966</td>
+                <td class="bgtext">5,155,138</td>
+            </tr>
+            <tr>
+                <td class="country">India</td>
+                <td>31,483,411</td>
+                <td class="new-cases">+42,928</td>
+                <td>422.054</td>
+                <td class="new-deaths">+640</td>
+                <td>30,655,390</td>
+                <td class="new-recovered">+41,452</td>
+                <td>405,967</td>
+            </tr>
+            <tr>
+                <td class="country" id="brazil">Brazil</td>
+                <td class="bgtext">19,749,073</td>
+                <td class="new-cases">+41,411</td>
+                <td class="bgtext">551,906</td>
+                <td class="new-deaths">+1,320</td>
+                <td class="bgtext">18,466,822</td>
+                <td class="new-recovered">+68,255</td>
+                <td class="bgtext">730,345</td>
+            </tr>
+            <tr>
+                <td class="country">Thailand</td>
+                <td>526,828</td>
+                <td class="new-cases">+14,150</td>
+                <td>4,254</td>
+                <td class="new-deaths">+118</td>
+                <td>350,643</td>
+                <td class="new-recovered">+9,168</td>
+                <td>171,921</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Problem 4</title>
+        <style>
+            body {
+            padding-left: 5px;
+            }
+            .navbar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: black;
+                width: 100%;
+                }
+
+            .navbar-items{
+                float: left;
+                }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+            li a:hover:not(.active) {
+                background-color: yellow;
+                }
+
+            .active {
+                background-color: purple;
+            }
+            p1 {
+                background-color: turquoise;
+                padding: 5px;
+                padding-left: 10px;
+                padding-bottom: 5px;
+                border: 5px solid blue;
+            }
+            p2 {
+                background-color: lightgreen;
+                padding: 5px;
+                padding-left: 10px;
+                padding-bottom: 5px;
+                border: 5px solid green;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="navbar">
+            <li class="navbar-items"><a class="active" href="#unordered-list">Unordered List</a></li>
+            <li class="navbar-items"><a href="#ordered-list">Ordered List</a></li>
+        </ul>
+        <br><br>
+        <p1>This is an unordered list:</p1>
+        <br>
+        <ul style="list-style-type:circle;">
+            <li>League of Legends</li>
+            <li>LoL : Wild rift</li>
+            <li>Basketball</li>
+        </ul>
+        <br>
+        <p2>This is an ordered list:</p2>
+        <br>
+        <ol type="i">
+            <li>League of Legends</li>
+            <li>LoL : Wild rift</li>
+            <li>Basketball</li>
+        </ol>
+    </body>
+</html>

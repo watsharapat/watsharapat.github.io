@@ -10,8 +10,8 @@ body {
     padding: 0 20px 20px 20px;
     border: 20px solid seagreen;
   }
-h1 {
-    color: slateblue;
+#heading {
+    color: blue;
     font-size: 60px;
     text-shadow: 5px 5px skyblue;
   }
@@ -44,4 +44,7 @@ figure {
 }
 figcaption {
     font-size: 10px;
+}
+.popular {
+    border: 4px dotted red;
 }
