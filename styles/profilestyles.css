@@ -1,0 +1,18 @@
+html {
+    font-size: 16px;
+    background-color: #111D4A;
+}
+body {
+    background-color: white;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+#content {
+    width: auto;
+    margin: auto;
+    padding: 0 20px 20px 20px;
+}
+.heading {
+    font-weight: bold;
+}
