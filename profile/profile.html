@@ -3,31 +3,47 @@
     <head>
         <meta charset="utf-8">
         <title>Watsharapat's resume</title>
-        <link href="styles/profilestyles.css" rel="stylesheet">
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="content">
-            <header>
-                <h id="name"><b>WATSHARAPAT <br> RITTHISOONTHORN</b><br></h>
-                <p1> <small>computer engineering student
-                    <br> Khon Kaen University, Thailand</small> <br></p1>
-            </header>
-            <img src="images/me.jpg" alt="it's actually me" style="width: 15%" >
-            <div>
-                <h class="heading">Contact me</h>
-                <p id = "contact">0859274615 <br>
-                    watshrapat.r@kkumail.com <br>
-                    Watsharapat Ritthisoonthorn <br>
-                    2/127 Moo. 12 <br>
-                    Mueang Khon Kaen district, <br>
-                    Khon Kaen, Thailand, 40000 </p>
+        <div id="container">
+                <header>
+                        <h id="name"><b>WATSHARAPAT <br> RITTHISOONTHORN</b><br></h>
+                        <p1> <small>computer engineering student
+                            <br> Khon Kaen University, Thailand</small> <br></p1>
+                </header>
+                <img id="me" src="images/me.png" alt="it's actually me" style="width: 15%">
+            <div class="grid-container">
+                <p id = "contact"><b>Contact me</b></p>
+                <table>
+                    <tr>
+                        <td>Tel. :</td>
+                        <td>0859274615</td>
+                    </tr>
+                    <tr>
+                        <td>Email :</td>
+                        <td>watshrapat.r@kkumail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Facebook :</td>
+                        <td><a target="_blank" href="https://www.facebook.com/Watsharapat/">
+                            Watsharapat Ritthisoonthorn</a></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>2/127 Moo. 12 <br>
+                            Mueang Khon Kaen district, <br>
+                            Khon Kaen, Thailand, 40000</td>
+                    </tr>
+                </table>
             </div>
-            <div>
-                <h class="heading">Personal Details</h>
-                <p id = "details">Date of Birth: 17 Dec 2001 <br>
+            <div class="grid-container">
+                <p id = "details"><b>Personal Details</b><br>
+                    Date of Birth: 17 Dec 2001 <br>
                     Gender: Male <br> Religion: Buddhism <br> Nationality: Thai </p>
             </div>
-            <div>
+            <div class="grid-container">
                 <h class="heading">Objective</h>
                 <p id = "objective">To obtain a mobile application <br>
                     devoloper position which my <br>
@@ -36,7 +52,7 @@
                     profitability as well as to <br>
                     develop my abilities </p>
             </div>
-            <div>
+            <div class="grid-container">
                 <h class="heading">Experiences</h>
                 <ul>
                     <li>2022 <br> Joined Basketball Thungsang Games
@@ -48,7 +64,7 @@
                         <br> Joined Basketball KKU Freshy Games</li>
                 </ul>
             </div>
-            <div>
+            <div class="grid-container">
                 <h class="heading">Education</h>
                 <table>
                     <tr>
@@ -61,9 +77,14 @@
                     </tr>
                 </table>
             </div>
-            <div>
+            <div class="grid-container">
                 <h class="heading">Skills</h>
             </div>
+            <form>
+                <label for="idea">Any suggestion?</label>
+                <input type="text" id="idea" name="idea">
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </body>
 </html>

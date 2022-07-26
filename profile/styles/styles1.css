@@ -1,0 +1,72 @@
+html {
+    font-size: medium;
+    background-color: #1a936f;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {  
+    background-color: #f7f7f7;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3% 5% 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 20% 15% 20%;
+    gap: 5% 5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "top top"
+      "contact details"
+      "education objective"
+      "skills experiences";
+  }
+  
+  .top {  display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 30% 30% 30%;
+    gap: 1% 1%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "name name pic"
+      "name name pic"
+      "name name pic";
+    grid-area: top;
+  }
+  
+  .name {
+    grid-area: name;
+    
+}
+  
+  .pic {
+    grid-area: pic;
+    align-items: center;
+}
+  
+  .contact { grid-area: contact; }
+  
+  .details { grid-area: details; }
+  
+  .education { grid-area: education; }
+  
+  .objective { grid-area: objective; }
+  
+  .skills { grid-area: skills; }
+  
+  .experiences { grid-area: experiences; }
+  #bigname {
+    font-size: xx-large;
+}
+.topics, #bigname {
+    color: #243746;
+}
+* {box-sizing: border-box}
+
+.skills-bar {
+  width: 100%;
+  background-color: #b7d8ea;
+}
+.html {width: 30%; background-color: #243746; color: #243746;}
+.css {width: 20%; background-color: #243746; color: #243746;}
+.java {width: 40%; background-color: #243746; color: #243746;}
+.python {width: 30%; background-color: #243746; color: #243746;}
