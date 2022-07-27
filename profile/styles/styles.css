@@ -92,3 +92,6 @@ img {
 ul {
   list-style-type: circle;
 }
+input {
+  display: inline;
+}
