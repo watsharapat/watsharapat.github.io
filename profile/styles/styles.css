@@ -1,31 +1,94 @@
 html {
     font-size: medium;
-    background-color: #111D4A;
+    background-color: #3423a6;
     font-family: 'Poppins', sans-serif;
 }
 body {
-    width: auto;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-}
-#container {
-    background-color: #EFF1F3;
-    width: 50%;
-    margin: auto;
-    margin-top: 6%;
-    padding: 3%;
-}
-.heading {
-    font-weight: bold;
-}
-.grid-container {
-    display: grid;
-    align-content: space-evenly;
-    grid-template-columns: auto auto auto;
-    padding: auto;
-}
-#name {
-    font-size: xx-large;
-    font-weight: bolder;
+  color: #2e1760;
+  font-weight: bold;
 }
 
+.container {  
+    background-color: #ffffff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3% 5% 3%;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 13% 17% 15% 45%;
+    gap: 5% 5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "top top"
+      "contact details"
+      "education objective"
+      "skills experiences";
+  }
+  
+  .top {  display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 30% 30% 30%;
+    gap: 1% 1%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "name name pic"
+      "name name pic"
+      "name name pic";
+    grid-area: top;
+  }
+  
+  .name {
+    grid-area: name;
+}
+  
+  .pic {
+    grid-area: pic;
+    align-items: center;
+}
+  
+  .contact { grid-area: contact; background-color: ;}
+  
+  .details { grid-area: details; }
+  
+  .education { grid-area: education; }
+  
+  .objective { grid-area: objective; font-size: small; }
+  
+  .skills { grid-area: skills; }
+  
+  .experiences { grid-area: experiences; }
+  #bigname {
+    font-size: x-large;
+    font-weight: 600;
+}
+.topics, #bigname {
+    color: #171738;
+    font-weight: 600;
+}
+* {box-sizing: border-box}
+
+.skills-bar {
+  width: 100%;
+  font-size: smaller;
+  background-color: #6290c3;
+  border-radius: 15px;
+  
+}
+.html {width: 30%; background-color: #3423a6; color: #3423a6; border-top-left-radius: 15px; border-bottom-left-radius: 15px;}
+.css {width: 20%; background-color: #3423a6; color: #3423a6;  border-top-left-radius: 15px; border-bottom-left-radius: 15px;}
+.java {width: 40%; background-color: #3423a6; color: #3423a6;  border-top-left-radius: 15px; border-bottom-left-radius: 15px;}
+.python {width: 30%; background-color: #3423a6; color: #3423a6;  border-top-left-radius: 15px; border-bottom-left-radius: 15px;}
+td, li  {
+  font-size: smaller;
+}
+form {margin: 0 auto;}
+label {
+  color: white;
+}
+img {
+  border-radius: 15px;
+}
+ul {
+  list-style-type: circle;
+}

@@ -2,20 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Watsharapat's resume</title>
         <link href="styles/styles.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="container">
-                <header>
-                        <h id="name"><b>WATSHARAPAT <br> RITTHISOONTHORN</b><br></h>
-                        <p1> <small>computer engineering student
-                            <br> Khon Kaen University, Thailand</small> <br></p1>
-                </header>
-                <img id="me" src="images/me.png" alt="it's actually me" style="width: 15%">
-            <div class="grid-container">
-                <p id = "contact"><b>Contact me</b></p>
+        <div class="container">
+            <div class="top">
+              <div class="name">
+                <h id="bigname"><b>WATSHARAPAT <br> RITTHISOONTHORN</b><br></h>
+                <p1> <small>computer engineering student
+                    <br> Khon Kaen University, Thailand</small> <br></p1></div>
+              <div class="pic"><img src="images/me.png" alt="it's actually me" style="width: 50%" ></div>
+            </div>
+            <div class="contact">
+                <p class="topics"><b>Contact me</b></p>
                 <table>
                     <tr>
                         <td>Tel. :</td>
@@ -26,34 +28,84 @@
                         <td>watshrapat.r@kkumail.com</td>
                     </tr>
                     <tr>
-                        <td>Facebook :</td>
+                        <td>FB :</td>
                         <td><a target="_blank" href="https://www.facebook.com/Watsharapat/">
                             Watsharapat Ritthisoonthorn</a></td>
                     </tr>
                     <tr>
-                        <td>Address</td>
+                        <td>Address :</td>
                         <td>2/127 Moo. 12 <br>
                             Mueang Khon Kaen district, <br>
                             Khon Kaen, Thailand, 40000</td>
                     </tr>
                 </table>
             </div>
-            <div class="grid-container">
-                <p id = "details"><b>Personal Details</b><br>
-                    Date of Birth: 17 Dec 2001 <br>
-                    Gender: Male <br> Religion: Buddhism <br> Nationality: Thai </p>
+            <div class="details">
+                <p class="topics"><b>Personal Details</b><br>
+                    <table>
+                        <tr>
+                            <td>Date of birth :</td>
+                            <td>17 Dec 2001</td>
+                        </tr>
+                        <tr>
+                            <td>Gender :</td>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <td>Religion :</td>
+                            <td>Buddhism</td>
+                        </tr>
+                        <tr>
+                            <td>Nationality :</td>
+                            <td>Thai</td>
+                        </tr>
+                    </table>
             </div>
-            <div class="grid-container">
-                <h class="heading">Objective</h>
-                <p id = "objective">To obtain a mobile application <br>
-                    devoloper position which my <br>
-                    experiences and skills will <br>
-                    contribute to the highest <br>
-                    profitability as well as to <br>
-                    develop my abilities </p>
+            <div class="education">
+                <p class="topics"><b>Education</b></p>
+                <table>
+                    <tr>
+                        <td>2020 - now</td>
+                        <td>   3rd year of Computer Engineering at Khon Kaen University</td>
+                    </tr>
+                    <tr>
+                        <td>2014 - 2019</td>
+                        <td>   Gradueated high school from Khon Kaen Wittayayon School</td>
+                    </tr>
+                </table>
             </div>
-            <div class="grid-container">
-                <h class="heading">Experiences</h>
+            <div class="objective">
+                <p class="topics"><b>Objective</b><br></p>
+                <p style="font-style:oblique;"> To obtain a mobile application
+                    devoloper position which my
+                    experiences and skills will
+                    contribute to the highest
+                    profitability as well as to
+                    develop my abilities
+                    </p>
+            </div>
+            <div class="skills">
+                <p class="topics"><b>Skills</b></p>
+                <p>HTML</p>
+                <div class="skills-bar">
+                    <div class="html">|</div>
+                </div>
+                <p>CSS</p>
+                <div class="skills-bar">
+                    <div class="css">|</div>
+                </div>
+                <p>Java</p>
+                <div class="skills-bar">
+                    <div class="java">|</div>
+                </div>
+                <p>Python</p>
+                <div class="skills-bar">
+                    <div class="python">|</div>
+                </div>
+                
+            </div>
+            <div class="experiences">
+                <p class="topics"><b>Experiences</b></p>
                 <ul>
                     <li>2022 <br> Joined Basketball Thungsang Games
                         <br> Joined 3x3 Basketball Khon Kaen Games</li>
@@ -64,27 +116,13 @@
                         <br> Joined Basketball KKU Freshy Games</li>
                 </ul>
             </div>
-            <div class="grid-container">
-                <h class="heading">Education</h>
-                <table>
-                    <tr>
-                        <td>2020 - now</td>
-                        <td>   | 3rd year of Computer Engineering at Khon Kaen University</td>
-                    </tr>
-                    <tr>
-                        <td>2014 - 2019</td>
-                        <td>   | Gradueated high school from Khon Kaen Wittayayon School</td>
-                    </tr>
-                </table>
+            <div>
+                <form>
+                    <label for="idea">Any suggestion?</label>
+                    <input type="text" id="idea" name="idea">
+                    <input type="submit" value="Submit">
+                </form>
             </div>
-            <div class="grid-container">
-                <h class="heading">Skills</h>
-            </div>
-            <form>
-                <label for="idea">Any suggestion?</label>
-                <input type="text" id="idea" name="idea">
-                <input type="submit" value="Submit">
-            </form>
         </div>
     </body>
 </html>
