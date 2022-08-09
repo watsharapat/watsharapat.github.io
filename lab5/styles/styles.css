@@ -1,0 +1,16 @@
+html {
+    font-size: medium;
+}
+#container {
+    display: block;
+    margin: 0 auto;
+    padding: 3% 3% 3%;
+}
+@media screen and (max-width: 700px) {
+    #container {
+        padding: 1% 1% 1%;
+    }
+    html {
+        font-size: large;
+    }
+}
